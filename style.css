@@ -19,6 +19,14 @@ html, body{
     text-align: left;
 }
 
+.top-border{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100vw;
+}
+
+
 .border{
     position: absolute;
     left: 0;
@@ -26,7 +34,7 @@ html, body{
     width: 100%;
     height: 100%;
     z-index: -99;
-    background: url("images/aaaa.png");
+    background: url("images/aaaaa.jpg");
     -moz-background-size: 100%; /* Firefox 3.6+ */
     -webkit-background-size:100%; /* Safari 3.1+ и Chrome 4.0+ */
     -o-background-size:100%; /* Opera 9.6+ */
