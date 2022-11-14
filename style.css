@@ -49,7 +49,7 @@ html, body{
 }
 
 img{
-    width: calc(260px + (650 - 260) * ((100vw - 320px) / (1200 - 320)));
+    width: calc(220px + (650 - 220) * ((100vw - 320px) / (1200 - 320)));
 }
 
 .img-cont{
@@ -84,6 +84,10 @@ h3{
 
 p{
     font-size: 18px;
+}
+
+.content-image{
+    width: 100%;
 }
 
 /*blockquote {*/
@@ -160,6 +164,11 @@ p{
     font-style: normal;
     font-weight: 300;
     color: #000;
+}
+
+.calc-image{
+    margin-top: -70px;
+    width: calc(260px + (900 - 260) * ((100vw - 320px) / (1200 - 320)));
 }
 
 
